@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Dashboard - Bemobi - Portal Clientes</title>
+    <link rel="icon" type="image/png" sizes="225x225" href="../../assets/img/avatars/images-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="225x225" href="../../assets/img/avatars/images-removebg-preview.png"
+        media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/png" sizes="225x225" href="../../assets/img/avatars/images-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="225x225" href="../../assets/img/avatars/images-removebg-preview.png"
+        media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/png" sizes="225x225" href="../../assets/img/avatars/images-removebg-preview.png" />
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" />
+    <link rel="stylesheet" href="../../assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="../css/loader.css" />
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 navbar-dark">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15">
+                        <img src="../../assets/img/avatars/images-removebg-preview.png" width="41" height="45" />
+                    </div>
+                    <div class="sidebar-brand-text mx-3" style="font-size: 14px; text-align: center">
+                        <span style="font-size: 14px">Bemobi - <br />Portal Clientes</span>
+                    </div>
+                </a>
+                <hr class="sidebar-divider my-0" />
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html"><i
+                                class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+                    </li>
+                </ul>
+                <div class="text-center d-none d-md-inline">
+                    <button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div id="loaderDiv" class="lds-dual-ring d-flex align-items-center justify-content-center d-none"></div>
+            <div class="d-flex flex-column" id="content-wrapper">
+                <div id="content">
+                    <nav class="navbar navbar-expand bg-white shadow mb-4 topbar static-top navbar-light">
+                        <div class="container-fluid">
+                            <button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop"
+                                type="button">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <ul class="navbar-nav flex-nowrap ms-auto">
+                                <li class="nav-item dropdown d-sm-none no-arrow">
+                                    <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"
+                                        href="#"><i class="fas fa-search"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in"
+                                        aria-labelledby="searchDropdown">
+                                        <form class="me-auto navbar-search w-100">
+                                            <div class="input-group">
+                                                <input class="bg-light form-control border-0 small" type="text"
+                                                    placeholder="Search for ..." />
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-primary py-0" type="button">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown no-arrow">
+                                    <div class="nav-item dropdown no-arrow">
+                                        <a class="dropdown-toggle nav-link" aria-expanded="false"
+                                            data-bs-toggle="dropdown" href="#">
+                                            <span class="d-none d-lg-inline me-2 text-gray-600 small">Cliente</span>
+                                            <img class="border rounded-circle img-profile"
+                                                alt="a close up of a statue of a man in a red jacket"
+                                                src="../../assets/img/photo-1631913290783-490324506193.jpg" />
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="container-fluid">
+                        <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                            <h3 class="text-dark mb-0">Dashboard</h3>
+                            <a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#">
+                                <i class="fas fa-download fa-sm text-white-50"></i>&nbsp;
+                                Gerar Relatório
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-xl-3 mb-2">
+                                <div class="card shadow border-start-primary py-2">
+                                    <div class="card-body">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col me-2">
+                                                <div class="text-uppercase text-primary fw-bold text-xs mb-1">
+                                                    <span>Valores em aberto</span>
+                                                </div>
+                                                <div class="text-dark fw-bold h5 mb-0">
+                                                    <span id="valAbertoDash"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xl-3 mb-2">
+                                <div class="card shadow border-start-success py-2">
+                                    <div class="card-body">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col me-2">
+                                                <div class="text-uppercase text-success fw-bold text-xs mb-1">
+                                                    <span>pagamentos recebidos</span>
+                                                </div>
+                                                <div class="text-dark fw-bold h5 mb-0">
+                                                    <span id="valRecebidoDash"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xl-2 mb-2">
+                                <div class="card shadow border-start-warning py-2">
+                                    <div class="card-body">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col me-2">
+                                                <div class="text-uppercase text-warning fw-bold text-xs mb-1">
+                                                    <span>Análise de sentimento</span>
+                                                </div>
+                                                <div class="text-dark fw-bold h5 mb-0">
+                                                    <span id="txtSentimento"></span>
+                                                    <i id="imgSentimento" class="far fa-smile" style="margin-left: 10px"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xl-2 mb-2">
+                                <div class="card shadow border-start-primary py-2">
+                                    <div class="card-body">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col me-2">
+                                                <div class="text-uppercase text-primary fw-bold text-xs mb-1">
+                                                    <span>N.º Contratos Ativos</span>
+                                                </div>
+                                                <div class="text-dark fw-bold h5 mb-0">
+                                                    <span id="numContratosAtivoDash"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-inbox fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xl-2 mb-2">
+                                <div class="card shadow border-start-primary py-2">
+                                    <div class="card-body">
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col me-2">
+                                                <div class="text-uppercase text-primary fw-bold text-xs mb-1">
+                                                    <span>N.º Clientes Ativos</span>
+                                                </div>
+                                                <div class="text-dark fw-bold h5 mb-0">
+                                                    <span id="numClientessAtivoDash"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-user-check fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 col-xl-8">
+                                <div class="card shadow mb-4">
+                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                        <h6 class="text-primary fw-bold m-0">
+                                            Risco por Cliente - Mês
+                                        </h6>
+                                        <div class="dropdown no-arrow">
+                                            <button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false"
+                                                data-bs-toggle="dropdown" type="button">
+                                                <i class="fas fa-ellipsis-v text-gray-400"></i>
+                                            </button>
+                                            <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                                <p class="text-center dropdown-header">
+                                                    Download Relatório:
+                                                </p>
+                                                <a class="dropdown-item" href="#" onclick="downloadRelatorioRiscoClientesCsv()">
+                                                    <i class="fas fa-download fa-sm text-black-50"></i>
+                                                    &nbsp;Download
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="chart-area">
+                                            <canvas id="riscoClientMesChart" width="400" height="600"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-xl-4">
+                                <div class="card shadow mb-4" style="--bs-info: #ff0000; --bs-info-rgb: 255, 0, 0">
+                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                        <h6 class="text-primary fw-bold m-0">
+                                            Risco de Evasão - Cliente
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="chart-area" style="--bs-secondary: #858796; --bs-secondary-rgb: 133, 135, 150; --bs-body-bg: #e30000; ">
+                                            <canvas id="evasaoClienteChart"></canvas></div>
+                                            <div class="text-center small mt-4">
+                                                <span class="me-2">
+                                                    <i class="fas fa-circle" style="color: #4bc0c0; padding-right: 5px;"></i>Baixo
+                                                </span>
+                                                <span class="me-2">
+                                                    <i class="fas fa-circle" style="color: #ffce56; padding-right: 5px;"></i>Médio
+                                                </span>
+                                                <span class="me-2">
+                                                    <i class="fas fa-circle" style="color: #ff6384; padding-right: 5px;"></i>Alto
+                                                </span>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-8">
+                                        <div class="card shadow mb-4">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+                                                <h6 class="text-primary fw-bold m-0">
+                                                    Risco por Contrato - Mês
+                                                </h6>
+                                                <div class="dropdown no-arrow">
+                                                    <button class="btn btn-link btn-sm dropdown-toggle"
+                                                        aria-expanded="false" data-bs-toggle="dropdown" type="button">
+                                                        <i class="fas fa-ellipsis-v text-gray-400"></i>
+                                                    </button>
+                                                    <div
+                                                        class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                                        <p class="text-center dropdown-header">
+                                                            Download Relatório:
+                                                        </p>
+                                                        
+                                                        <a class="dropdown-item" href="#" onclick="downloadRelatorioRiscoContratosCsv()">
+                                                            <i class="fas fa-download fa-sm text-black-50"></i>
+                                                            &nbsp;Download
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="chart-area">
+                                                    <canvas id="riscoContratoMesChart" width="400" height="200"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-xl-4">
+                                        <div class="card shadow mb-4" style="--bs-info: #ff0000; --bs-info-rgb: 255, 0, 0">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+                                                <h6 class="text-primary fw-bold m-0">
+                                                    Risco de Evasão - Contrato
+                                                </h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="chart-area" style=" --bs-secondary: #858796; --bs-secondary-rgb: 133, 135, 150;  --bs-body-bg: #e30000; ">
+                                                    <canvas id="evasaoContratoChart"></canvas>
+                                                </div>
+                                                <div class="text-center small mt-4">
+                                                    <span class="me-2">
+                                                        <i class="fas fa-circle" style="color: #4bc0c0; padding-right: 5px;"></i>Baixo
+                                                    </span>
+                                                    <span class="me-2">
+                                                        <i class="fas fa-circle" style="color: #ffce56; padding-right: 5px;"></i>Médio
+                                                    </span>
+                                                    <span class="me-2">
+                                                        <i class="fas fa-circle" style="color: #ff6384; padding-right: 5px;"></i>Alto
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-8">
+                                        <div class="card shadow mb-4">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+                                                <h6 class="text-primary fw-bold m-0">
+                                                    Valor por Cliente - Mês
+                                                </h6>
+                                                <div class="dropdown no-arrow">
+                                                    <button class="btn btn-link btn-sm dropdown-toggle"
+                                                        aria-expanded="false" data-bs-toggle="dropdown" type="button">
+                                                        <i class="fas fa-ellipsis-v text-gray-400"></i>
+                                                    </button>
+                                                    <div
+                                                        class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                                        <p class="text-center dropdown-header">
+                                                            Download Relatório:
+                                                        </p>
+                                                        
+                                                        <a class="dropdown-item" href="#" onclick="downloadRelatorioRiscoClientesMoneyCsv()">
+                                                            <i class="fas fa-download fa-sm text-black-50"></i>
+                                                            &nbsp;Download
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="chart-area">
+                                                    <canvas id="riscoClientesMesMoneyChart" width="400" height="200"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                <div class="row">
+                                    <div class="col-lg-7 col-xl-8">
+                                        <div class="card shadow mb-4">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+                                                <h6 class="text-primary fw-bold m-0">
+                                                    Valor por Contrato - Mês
+                                                </h6>
+                                                <div class="dropdown no-arrow">
+                                                    <button class="btn btn-link btn-sm dropdown-toggle"
+                                                        aria-expanded="false" data-bs-toggle="dropdown" type="button">
+                                                        <i class="fas fa-ellipsis-v text-gray-400"></i>
+                                                    </button>
+                                                    <div
+                                                        class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                                        <p class="text-center dropdown-header">
+                                                            Download Relatório:
+                                                        </p>
+                                                        
+                                                        <a class="dropdown-item" href="#" onclick="downloadRelatorioRiscoContratosMoneyCsv()">
+                                                            <i class="fas fa-download fa-sm text-black-50"></i>
+                                                            &nbsp;Download
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="chart-area">
+                                                    <canvas id="riscoContratoMesMoneyChart" width="400" height="200"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="bg-white sticky-footer">
+                    <div class="container my-auto">
+                        <div class="text-center my-auto copyright">
+                            <span>Copyright © Bemobi - Portal Clientes 2024</span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        </main>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/comum.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../../assets/js/chart.min.js"></script>
+    <script src="../../assets/js/bs-init.js"></script>
+    <script src="../../assets/js/theme.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+DATA,CPF_CNPJ,NOME_CLIENTE,RISCO_CLIENTE,NUMERO_CONTRATO,RISCO_CONTRATO,VALOR_CCONTRATO,STATUS
+01/01/24,20.583.417/0001-31,Levi Pinto,Alto,5575431163,Alto,458.23,Pago
+01/01/24,20.583.417/0001-31,Levi Pinto,Alto,2562138399,Alto,133.77,Pago
+01/01/24,20.583.417/0001-31,Levi Pinto,Alto,1278102527,Alto,307.15,Pago
+01/01/24,296.518.347-73,Nathan Lima,Alto,7354366093,Alto,467.92,Pago
+01/01/24,296.518.347-73,Nathan Lima,Alto,4674323288,Médio,289.04,Pago
+01/01/24,296.518.347-73,Nathan Lima,Alto,4804601289,Baixo,119.36,Pago
+01/01/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6587987665,Alto,484.87,Pago
+01/01/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,1722071087,Médio,172.11,Pago
+01/01/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6582957681,Baixo,213.45,Pago
+01/01/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/01/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/01/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/01/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/01/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/01/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/01/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/01/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Baixo,354.98,Pago
+01/01/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/01/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/01/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/01/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/01/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3786976221,Baixo,312.99,Pago
+01/01/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3835989353,Médio,431.58,Pago
+01/01/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,7609849412,Alto,266.04,Pago
+01/01/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/01/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/01/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/01/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/01/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/01/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/02/24,296.518.347-73,Nathan Lima,Alto,7354366093,Alto,467.92,Pago
+01/02/24,296.518.347-73,Nathan Lima,Alto,4674323288,Médio,289.04,Pago
+01/02/24,296.518.347-73,Nathan Lima,Alto,4804601289,Baixo,119.36,Pago
+01/02/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6587987665,Alto,484.87,Pago
+01/02/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,1722071087,Médio,172.11,Pago
+01/02/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6582957681,Baixo,213.45,Pago
+01/02/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/02/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/02/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/02/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/02/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/02/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/02/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/02/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Baixo,354.98,Pago
+01/02/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/02/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/02/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/02/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/02/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3786976221,Baixo,312.99,Pago
+01/02/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3835989353,Médio,431.58,Pago
+01/02/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,7609849412,Alto,266.04,Pago
+01/02/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/02/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/02/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/02/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/02/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/02/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/02/24,462.897.510-85,Davi Vieira,Baixo,1556365452,Baixo,219.89,Pago
+01/02/24,462.897.510-85,Davi Vieira,Baixo,4536480196,Baixo,95.23,Pago
+01/03/24,296.518.347-73,Nathan Lima,Alto,7354366093,Alto,467.92,Pago
+01/03/24,296.518.347-73,Nathan Lima,Alto,4674323288,Médio,289.04,Pago
+01/03/24,296.518.347-73,Nathan Lima,Alto,4804601289,Baixo,119.36,Pago
+01/03/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6587987665,Alto,484.87,Pago
+01/03/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,1722071087,Médio,172.11,Pago
+01/03/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6582957681,Baixo,213.45,Pago
+01/03/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/03/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/03/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/03/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/03/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/03/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/03/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/03/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Baixo,354.98,Pago
+01/03/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/03/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/03/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/03/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/03/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3786976221,Baixo,312.99,Pago
+01/03/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3835989353,Médio,431.58,Pago
+01/03/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,7609849412,Alto,266.04,Pago
+01/03/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/03/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/03/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/03/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/03/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/03/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/03/24,462.897.510-85,Davi Vieira,Alto,1556365452,Alto,219.89,Pago
+01/04/24,296.518.347-73,Nathan Lima,Alto,7354366093,Alto,467.92,Pago
+01/04/24,296.518.347-73,Nathan Lima,Alto,4674323288,Médio,289.04,Pago
+01/04/24,296.518.347-73,Nathan Lima,Alto,4804601289,Baixo,119.36,Pago
+01/04/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6587987665,Alto,484.87,Pago
+01/04/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,1722071087,Médio,172.11,Pago
+01/04/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6582957681,Baixo,213.45,Pago
+01/04/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/04/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/04/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/04/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/04/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/04/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/04/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/04/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Baixo,354.98,Pago
+01/04/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/04/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/04/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/04/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/04/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3786976221,Baixo,312.99,Pago
+01/04/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3835989353,Médio,431.58,Pago
+01/04/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,7609849412,Alto,266.04,Pago
+01/04/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/04/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/04/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/04/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/04/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/04/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/05/24,296.518.347-73,Nathan Lima,Alto,7354366093,Alto,467.92,Pago
+01/05/24,296.518.347-73,Nathan Lima,Alto,4674323288,Médio,289.04,Pago
+01/05/24,296.518.347-73,Nathan Lima,Alto,4804601289,Baixo,119.36,Pago
+01/05/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6587987665,Alto,484.87,Pago
+01/05/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,1722071087,Médio,172.11,Pago
+01/05/24,36.521.098/0001-70,Luiz Henrique Rezende,Alto,6582957681,Baixo,213.45,Pago
+01/05/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/05/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/05/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/05/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/05/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/05/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/05/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/05/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/05/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/05/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/05/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/05/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/05/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3786976221,Baixo,312.99,Pago
+01/05/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,3835989353,Médio,431.58,Pago
+01/05/24,40.912.873/0001-95,Enzo Gabriel Costela,Alto,7609849412,Alto,266.04,Pago
+01/05/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/05/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/05/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/05/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/05/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/05/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/05/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/05/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pago
+01/05/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/05/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,6995675434,Médio,185.47,Pago
+01/05/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,9607678085,Alto,125.69,Pago
+01/05/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,7570539490,Médio,415.63,Pago
+01/06/24,296.518.347-73,Nathan Lima,Médio,7354366093,Alto,467.92,Pago
+01/06/24,296.518.347-73,Nathan Lima,Médio,4674323288,Médio,289.04,Pago
+01/06/24,296.518.347-73,Nathan Lima,Médio,4804601289,Baixo,119.36,Pago
+01/06/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6587987665,Médio,484.87,Pago
+01/06/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,1722071087,Médio,172.11,Pago
+01/06/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6582957681,Baixo,213.45,Pago
+01/06/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/06/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/06/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/06/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/06/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/06/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/06/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/06/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/06/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/06/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/06/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/06/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/06/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3786976221,Médio,312.99,Pago
+01/06/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3835989353,Médio,431.58,Pago
+01/06/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/06/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/06/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/06/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/06/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/06/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/06/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/06/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pago
+01/06/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/06/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,6995675434,Médio,185.47,Pago
+01/06/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,9607678085,Alto,125.69,Pago
+01/06/24,16.094.387/0001-22,Maria Eduarda Correia,Alto,7570539490,Médio,415.63,Pago
+01/07/24,296.518.347-73,Nathan Lima,Médio,7354366093,Alto,467.92,Pago
+01/07/24,296.518.347-73,Nathan Lima,Médio,4674323288,Médio,289.04,Pago
+01/07/24,296.518.347-73,Nathan Lima,Médio,4804601289,Baixo,119.36,Pago
+01/07/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6587987665,Médio,484.87,Pago
+01/07/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,1722071087,Médio,172.11,Pago
+01/07/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6582957681,Baixo,213.45,Pago
+01/07/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/07/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/07/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/07/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/07/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/07/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/07/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/07/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/07/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/07/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/07/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/07/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/07/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3786976221,Médio,312.99,Pago
+01/07/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3835989353,Médio,431.58,Pago
+01/07/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/07/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/07/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/07/24,534.920.187-50,Lucca Melo,Alto,9294639055,Alto,234.67,Pago
+01/07/24,534.920.187-50,Lucca Melo,Alto,6109044466,Baixo,177.93,Pago
+01/07/24,534.920.187-50,Lucca Melo,Alto,8147070470,Médio,402.25,Pago
+01/07/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/07/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pago
+01/07/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/07/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,6995675434,Médio,185.47,Pago
+01/07/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,9607678085,Médio,125.69,Pago
+01/07/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,7570539490,Médio,415.63,Pago
+01/07/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6731470956,Baixo,202.35,Pago
+01/07/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6513091972,Baixo,416.52,Pago
+01/07/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,4686078890,Médio,256.91,Pago
+01/07/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,7746368189,Baixo,478.26,Pago
+01/07/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,1670345699,Baixo,188.44,Pago
+01/07/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,3500676366,Médio,468.39,Pago
+01/08/24,296.518.347-73,Nathan Lima,Médio,7354366093,Alto,467.92,Pago
+01/08/24,296.518.347-73,Nathan Lima,Médio,4674323288,Médio,289.04,Pago
+01/08/24,296.518.347-73,Nathan Lima,Médio,4804601289,Baixo,119.36,Pago
+01/08/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6587987665,Médio,484.87,Pago
+01/08/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,1722071087,Médio,172.11,Pago
+01/08/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6582957681,Baixo,213.45,Pago
+01/08/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/08/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/08/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/08/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/08/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/08/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/08/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/08/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/08/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/08/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/08/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/08/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/08/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3786976221,Médio,312.99,Pago
+01/08/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3835989353,Médio,431.58,Pago
+01/08/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/08/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/08/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/08/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/08/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pago
+01/08/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/08/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,6995675434,Médio,185.47,Pago
+01/08/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,9607678085,Médio,125.69,Pago
+01/08/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,7570539490,Médio,415.63,Pago
+01/08/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6731470956,Baixo,202.35,Pago
+01/08/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6513091972,Baixo,416.52,Pago
+01/08/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,4686078890,Médio,256.91,Pago
+01/08/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,7746368189,Baixo,478.26,Pago
+01/08/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,1670345699,Baixo,188.44,Pago
+01/08/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,3500676366,Médio,468.39,Pago
+01/09/24,296.518.347-73,Nathan Lima,Médio,4674323288,Médio,289.04,Pendente
+01/09/24,296.518.347-73,Nathan Lima,Médio,4804601289,Baixo,119.36,Pago
+01/09/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6587987665,Médio,484.87,Pago
+01/09/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,1722071087,Médio,172.11,Pago
+01/09/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6582957681,Baixo,213.45,Pago
+01/09/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/09/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/09/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/09/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pendente
+01/09/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pendente
+01/09/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/09/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/09/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/09/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pendente
+01/09/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/09/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pago
+01/09/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pago
+01/09/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3786976221,Médio,312.99,Pago
+01/09/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3835989353,Médio,431.58,Pago
+01/09/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pago
+01/09/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/09/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/09/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/09/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pago
+01/09/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/09/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,6995675434,Médio,185.47,Pago
+01/09/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,9607678085,Médio,125.69,Pago
+01/09/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,7570539490,Médio,415.63,Pendente
+01/09/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6731470956,Baixo,202.35,Pago
+01/09/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6513091972,Baixo,416.52,Pendente
+01/09/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,4686078890,Médio,256.91,Pago
+01/09/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,7746368189,Baixo,478.26,Pago
+01/09/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,1670345699,Baixo,188.44,Pago
+01/09/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,3500676366,Médio,468.39,Pago
+01/10/24,296.518.347-73,Nathan Lima,Médio,4674323288,Médio,289.04,Pago
+01/10/24,296.518.347-73,Nathan Lima,Médio,4804601289,Baixo,119.36,Pendente
+01/10/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6587987665,Médio,484.87,Pago
+01/10/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,1722071087,Médio,172.11,Pago
+01/10/24,36.521.098/0001-70,Luiz Henrique Rezende,Médio,6582957681,Baixo,213.45,Pago
+01/10/24,736.012.485-90,Luana Nascimento,Médio,7216365082,Médio,392.67,Pago
+01/10/24,736.012.485-90,Luana Nascimento,Médio,7140149853,Médio,449.51,Pago
+01/10/24,736.012.485-90,Luana Nascimento,Médio,5837270356,Baixo,157.80,Pago
+01/10/24,146.730.852-80,Maria Cecília Carvalho,Baixo,6925634709,Baixo,276.89,Pago
+01/10/24,146.730.852-80,Maria Cecília Carvalho,Baixo,1449328737,Baixo,362.14,Pago
+01/10/24,146.730.852-80,Maria Cecília Carvalho,Baixo,9810616935,Baixo,495.33,Pago
+01/10/24,81.974.365/0001-19,Brenda Caldeira,Médio,3031771115,Baixo,109.27,Pago
+01/10/24,81.974.365/0001-19,Brenda Caldeira,Médio,8125181867,Médio,354.98,Pago
+01/10/24,81.974.365/0001-19,Brenda Caldeira,Médio,4617293733,Médio,180.41,Pago
+01/10/24,476.130.892-31,Beatriz Nascimento,Alto,9060851396,Baixo,412.03,Pago
+01/10/24,476.130.892-31,Beatriz Nascimento,Alto,8208180382,Médio,94.58,Pendente
+01/10/24,476.130.892-31,Beatriz Nascimento,Alto,1976266970,Alto,227.37,Pendente
+01/10/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3786976221,Médio,312.99,Pago
+01/10/24,40.912.873/0001-95,Enzo Gabriel Costela,Médio,3835989353,Médio,431.58,Pendente
+01/10/24,02.497.385/0001-70,Clarice Cunha,Médio,7242375052,Médio,95.62,Pendente
+01/10/24,02.497.385/0001-70,Clarice Cunha,Médio,5364762899,Baixo,320.87,Pago
+01/10/24,02.497.385/0001-70,Clarice Cunha,Médio,4663690621,Baixo,489.03,Pago
+01/10/24,561.483.290-42,Dra. Alexia Jesus,Médio,6600825482,Baixo,177.49,Pago
+01/10/24,561.483.290-42,Dra. Alexia Jesus,Médio,1897754008,Médio,268.34,Pendente
+01/10/24,561.483.290-42,Dra. Alexia Jesus,Médio,5937996373,Médio,392.15,Pago
+01/10/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,6995675434,Médio,185.47,Pendente
+01/10/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,9607678085,Médio,125.69,Pago
+01/10/24,16.094.387/0001-22,Maria Eduarda Correia,Médio,7570539490,Médio,415.63,Pago
+01/10/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6731470956,Baixo,202.35,Pago
+01/10/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,6513091972,Baixo,416.52,Pago
+01/10/24,98.453.706/0001-03,Rebeca Rodrigues,Médio,4686078890,Médio,256.91,Pago
+01/10/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,7746368189,Baixo,478.26,Pago
+01/10/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,1670345699,Baixo,188.44,Pago
+01/10/24,49.580.276/0001-85,Pedro Henrique Moura,Médio,3500676366,Médio,468.39,Pago
