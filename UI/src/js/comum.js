@@ -1,3 +1,7 @@
+var riscoClientMesChart;
+var riscoContratoMesChart;
+var riscoContratoMesMoneyChart;
+var riscoClientesMesMoneyChart;
 
 const URL_API_BASE = "http://127.0.0.1:8000"
 function jsLoading(isOpen) {
@@ -53,7 +57,7 @@ function setDataBaseDashboard(dataFromApi) {
     $('#valRecebidoDash').text(formatarDinheiro(dataFromApi.total_recebido));
     $('#numClientessAtivoDash').text(dataFromApi.clientes_ativos);
     $('#numContratosAtivoDash').text(dataFromApi.contratos_ativos);
-     
+
     if (dataFromApi.sentimento_geral <= 107) {
         $('#txtSentimento').text('RUIM');
         $('#txtSentimento').addClass('text-danger');
@@ -196,7 +200,7 @@ function criarDashContratosMes(dataFromApi) {
     var qtdeAlto = dataFromApi.map(item => item.qtde_alto);
 
     var ctx = document.getElementById('riscoContratoMesChart').getContext('2d');
-    var riscoContratoMesChart = new Chart(ctx, {
+    riscoContratoMesChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: months,
@@ -244,7 +248,6 @@ async function getDataDashEvasaoCliente() {
         if (res.ok) {
             const returnApi = await res.json();
             jsLoading(false);
-            console.log('retornoApi Corsas1 contratos =', returnApi);
             criarDashEvasaoClientes(returnApi)
         } else {
             jsLoading(false);
@@ -298,7 +301,6 @@ async function getDataDashEvasaoContrato() {
         if (res.ok) {
             const returnApi = await res.json();
             jsLoading(false);
-            console.log('retornoApi Corsas2 contratos =', returnApi);
             criarDashEvasaoContratos(returnApi)
         } else {
             jsLoading(false);
@@ -344,9 +346,8 @@ function criarDashEvasaoContratos(dataFromApi) {
     });
 }
 
-var riscoClientMesChart;  // Variável global para armazenar a instância do gráfico
 
-// Função para criar o gráfico
+
 function criarDashClienteMes(dataFromApi) {
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"];
 
@@ -354,7 +355,6 @@ function criarDashClienteMes(dataFromApi) {
     var qtdeMedio = dataFromApi.map(item => item.qtde_medio);
     var qtdeAlto = dataFromApi.map(item => item.qtde_alto);
 
-    // Criação do gráfico e armazenamento na variável global
     var ctx = document.getElementById('riscoClientMesChart').getContext('2d');
     riscoClientMesChart = new Chart(ctx, {
         type: 'bar',
@@ -402,14 +402,14 @@ function downloadRelatorioRiscoClientesCsv() {
         return;
     }
 
-    var months = riscoClientMesChart.data.labels;  
+    var months = riscoClientMesChart.data.labels;
     var datasetBaixo = riscoClientMesChart.data.datasets[0].data;  // Dados do Baixo risco
     var datasetMedio = riscoClientMesChart.data.datasets[1].data;  // Dados do Médio risco
     var datasetAlto = riscoClientMesChart.data.datasets[2].data;   // Dados do Alto risco
 
     var csvContent = "Mês,Baixo,Médio,Alto\n";
 
-    months.forEach(function(month, index) {
+    months.forEach(function (month, index) {
         csvContent += month + "," + datasetBaixo[index] + "," + datasetMedio[index] + "," + datasetAlto[index] + "\n";
     });
 
@@ -432,18 +432,20 @@ function downloadRelatorioRiscoContratosCsv() {
         console.error('Nenhum gráfico encontrado.');
         return;
     }
-    if (!riscoContratoMesChart.data || !riscoContratoMesChart.data.labels) {
-        console.error('O gráfico não possui dados de labels.');
+
+    if (!riscoContratoMesChart.data.datasets || riscoContratoMesChart.data.datasets.length < 3) {
+        console.error('O gráfico não possui dados suficientes nos datasets.');
         return;
     }
-    var months = riscoContratoMesChart.data.labels;  
-    var datasetBaixo = riscoContratoMesChart.data.datasets[0].data;  // Dados do Baixo risco
-    var datasetMedio = riscoContratoMesChart.data.datasets[1].data;  // Dados do Médio risco
-    var datasetAlto = riscoContratoMesChart.data.datasets[2].data;   // Dados do Alto risco
+
+    var months = riscoContratoMesChart.data.labels;
+    var datasetBaixo = riscoContratoMesChart.data.datasets[0]?.data || [];  // Dados do Baixo risco
+    var datasetMedio = riscoContratoMesChart.data.datasets[1]?.data || [];  // Dados do Médio risco
+    var datasetAlto = riscoContratoMesChart.data.datasets[2]?.data || [];   // Dados do Alto risco
 
     var csvContent = "Mês,Baixo,Médio,Alto\n";
 
-    months.forEach(function(month, index) {
+    months.forEach(function (month, index) {
         csvContent += month + "," + datasetBaixo[index] + "," + datasetMedio[index] + "," + datasetAlto[index] + "\n";
     });
 
@@ -501,7 +503,7 @@ function criarDashClientesMesMoney(dataFromApi) {
     var qtdeAlto = dataFromApi.map(item => item.qtde_alto);
 
     var ctx = document.getElementById('riscoClientesMesMoneyChart').getContext('2d');
-    var riscoClientesMesMoneyChart = new Chart(ctx, {
+    riscoClientesMesMoneyChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: months,
@@ -581,7 +583,7 @@ function criarDashContratosMesMoney(dataFromApi) {
     var qtdeAlto = dataFromApi.map(item => item.qtde_alto);
 
     var ctx = document.getElementById('riscoContratoMesMoneyChart').getContext('2d');
-    var riscoContratoMesMoneyChart = new Chart(ctx, {
+    riscoContratoMesMoneyChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: months,
@@ -627,14 +629,14 @@ function downloadRelatorioRiscoClientesMoneyCsv() {
         return;
     }
 
-    var months = riscoClientesMesMoneyChart.data.labels;  
+    var months = riscoClientesMesMoneyChart.data.labels;
     var datasetBaixo = riscoClientesMesMoneyChart.data.datasets[0].data;  // Dados do Baixo risco
     var datasetMedio = riscoClientesMesMoneyChart.data.datasets[1].data;  // Dados do Médio risco
     var datasetAlto = riscoClientesMesMoneyChart.data.datasets[2].data;   // Dados do Alto risco
 
     var csvContent = "Mês,Baixo,Médio,Alto\n";
 
-    months.forEach(function(month, index) {
+    months.forEach(function (month, index) {
         csvContent += month + "," + datasetBaixo[index] + "," + datasetMedio[index] + "," + datasetAlto[index] + "\n";
     });
 
@@ -658,14 +660,14 @@ function downloadRelatorioRiscoContratosMoneyCsv() {
         return;
     }
 
-    var months = riscoContratoMesMoneyChart.data.labels;  
+    var months = riscoContratoMesMoneyChart.data.labels;
     var datasetBaixo = riscoContratoMesMoneyChart.data.datasets[0].data;  // Dados do Baixo risco
     var datasetMedio = riscoContratoMesMoneyChart.data.datasets[1].data;  // Dados do Médio risco
     var datasetAlto = riscoContratoMesMoneyChart.data.datasets[2].data;   // Dados do Alto risco
 
     var csvContent = "Mês,Baixo,Médio,Alto\n";
 
-    months.forEach(function(month, index) {
+    months.forEach(function (month, index) {
         csvContent += month + "," + datasetBaixo[index] + "," + datasetMedio[index] + "," + datasetAlto[index] + "\n";
     });
 

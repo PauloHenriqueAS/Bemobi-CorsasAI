@@ -18,11 +18,9 @@
 ## 🗒️ Descrição do Portal 
 
 1. HealthCheck da API.
-   1. Endpoint para monitoramento da integridade da API e seus serviços críticos, garantindo a disponibilidade do sistema
 2. Métodos de Dashboard.
-   1. Visualização de dados em dashboards com gráficos dinâmicos e relatórios em tempo real.
 3. Métodos de Informações da Base
-   1. iopfjejp
+4. Métodos de Integração
 
 ## ⚠️ Comandos Importantes
 
@@ -47,6 +45,12 @@
   
 ```
  c:; cd 'c:\Users\NomeUser\Desktop\Projetos\CorsasApi'; & 'c:\Python311\python.exe' 'c:\Users\NomeUser\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '58635' '--' '-m' 'uvicorn' 'main:app' '--reload' 
+```
+
+- Download das Bibliotecas
+  
+```
+    pip install -r .\requirements.txt
 ```
 
 <div align="center">
