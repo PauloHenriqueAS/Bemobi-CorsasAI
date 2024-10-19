@@ -3,7 +3,7 @@ var riscoContratoMesChart;
 var riscoContratoMesMoneyChart;
 var riscoClientesMesMoneyChart;
 
-const URL_API_BASE = "http://127.0.0.1:8000"
+const URL_API_BASE = "https://corsasai-backend-production.up.railway.app"
 function jsLoading(isOpen) {
     if (isOpen) {
         $('#loaderDiv').removeClass('d-none');
@@ -28,6 +28,7 @@ async function getBasicInfoDash() {
     try {
         jsLoading(true);
         const apiUrl = `${URL_API_BASE}/dash/GetBasicInfoDash`;
+        console.log(apiUrl);
         const res = await fetch(apiUrl);
         if (res.ok) {
             const returnApi = await res.json();
